@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SparkTask2</string>
+    <string name="facebook_app_id">337869170622179</string>
+    <string name="fb_login_protocol_scheme">fb337869170622179</string>
+</resources>

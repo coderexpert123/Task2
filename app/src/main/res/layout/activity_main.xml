@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+android:padding="24dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <de.hdodenhof.circleimageview.CircleImageView
+     android:id="@+id/profile_pic"
+     android:padding="13dp"
+     android:src="@drawable/ic_launcher_background"
+     android:layout_width="match_parent"
+     android:layout_height="168dp"
+
+
+     app:civ_border_color="#FF000000"
+     app:civ_border_width="2dp" />
+
+
+ <TextView
+     android:id="@+id/profile_Name"
+     android:textColor="#0C0C0C"
+     android:layout_marginTop="12dp"
+
+   android:background="@drawable/round_btn"
+    android:gravity="center"
+     android:textSize="25dp"
+     android:textStyle="bold"
+     android:layout_width="match_parent"
+     android:layout_height="49dp"/>
+
+
+ <TextView
+     android:id="@+id/profile_email"
+     android:layout_width="match_parent"
+     android:layout_height="63dp"
+     android:layout_marginTop="10dp"
+     android:textColor="#0E0E0E"
+     android:gravity="center"
+     android:background="@drawable/round_btn"
+     android:text="nisant singh@mail.com"
+     android:textSize="23dp" />
+
+
+ <com.facebook.login.widget.LoginButton
+
+     android:id="@+id/login_button"
+     android:layout_width="369dp"
+     android:layout_height="415dp"
+     android:layout_marginTop="23dp" />
+
+
+
+
+</LinearLayout>

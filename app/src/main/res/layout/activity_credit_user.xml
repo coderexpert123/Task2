@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreditUser">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="#F44336"
+        android:gravity="center"
+        android:text="Transection"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#F60B0B"
+        android:text="Select the name from below  list *"
+        android:layout_height="32dp"></TextView>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_btn"
+        android:layout_height="49dp"
+
+
+        app:layout_constraintVertical_bias="0.498" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="#121111"
+        android:textSize="20dp"
+        android:textStyle="bold"
+      android:hint="Plese Enter Money"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:text="Accept Term and Condition"
+
+            android:layout_height="48dp">
+
+        </CheckBox>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="19dp"
+            android:text="Proceed Now"
+            android:textSize="20sp"
+            android:onClick="sucess"
+            android:background="@drawable/byn"
+            android:textStyle="bold"
+
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+</LinearLayout>
+</LinearLayout>
